@@ -1,4 +1,4 @@
-
-WARNING: Delegated to the 'execute' command.
-         This behaviour has been deprecated and will be removed in a future release.
-         Please use the 'execute' command directly.
+HikerTest.java:16: error: ';' expected
+            int currentNumber=i+1
+                                 ^
+1 error
