@@ -8,16 +8,4 @@ HikerTest.java:14: error: cannot find symbol
                                             ^
   symbol:   method split(String)
   location: interface List<String>
-HikerTest.java:19: error: array required, but List<String> found
-                assertEquals("FizzBuzz", actual[i]);
-                                               ^
-HikerTest.java:21: error: array required, but List<String> found
-                assertEquals("Buzz", actual[i]);
-                                           ^
-HikerTest.java:23: error: array required, but List<String> found
-                assertEquals("Buzz", actual[i]);
-                                           ^
-HikerTest.java:25: error: array required, but List<String> found
-                assertEquals(currentNumber+"", actual[i]);
-                                                     ^
-6 errors
+2 errors

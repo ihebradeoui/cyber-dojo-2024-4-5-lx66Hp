@@ -16,13 +16,13 @@ public class HikerTest {
         {
             int currentNumber=i+1;
             if(currentNumber%3==0 && currentNumber%5==0)
-                assertEquals("FizzBuzz", actual[i]);
+                assertEquals("FizzBuzz", actual.get(i));
             else if(currentNumber%3==0)
-                assertEquals("Buzz", actual[i]);
+                assertEquals("Buzz", actual.get(i));
             else if(currentNumber%3==0)
-                assertEquals("Buzz", actual[i]);
+                assertEquals("Buzz", actual.get(i));
             else 
-                assertEquals(currentNumber+"", actual[i]);
+                assertEquals(currentNumber+"", actual.get(i));
         }
         
      }
