@@ -235,5 +235,21 @@
       8,
       469598
     ]
+  },
+  {
+    "duration": 2.979532,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 15,
+    "time": [
+      2024,
+      4,
+      5,
+      10,
+      34,
+      20,
+      661433
+    ]
   }
 ]
