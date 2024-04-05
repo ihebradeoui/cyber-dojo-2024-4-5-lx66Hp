@@ -4,6 +4,8 @@ import java.util.ArrayList;
 public class Hiker {
 
     public static List<String> answer() {
-        return new Arraylist({1});
+        List<String> list = new Arraylist<String>();
+        list.add("1");
+        return list;
     }
 }

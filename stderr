@@ -1,10 +1,23 @@
-Hiker.java:7: error: illegal start of expression
-        return new Arraylist({1});
-                             ^
-Hiker.java:7: error: illegal start of type
-        return new Arraylist({1});
-                              ^
-Hiker.java:7: error: ';' expected
-        return new Arraylist({1});
+Hiker.java:7: error: cannot find symbol
+        List<String> list = new Arraylist<String>();
                                 ^
-3 errors
+  symbol:   class Arraylist
+  location: class Hiker
+HikerTest.java:14: error: cannot find symbol
+        List<String> actual = Hiker.answer().split("\n");
+                                            ^
+  symbol:   method split(String)
+  location: interface List<String>
+HikerTest.java:19: error: array required, but List<String> found
+                assertEquals("FizzBuzz", actual[i]);
+                                               ^
+HikerTest.java:21: error: array required, but List<String> found
+                assertEquals("Buzz", actual[i]);
+                                           ^
+HikerTest.java:23: error: array required, but List<String> found
+                assertEquals("Buzz", actual[i]);
+                                           ^
+HikerTest.java:25: error: array required, but List<String> found
+                assertEquals(currentNumber+"", actual[i]);
+                                                     ^
+6 errors
