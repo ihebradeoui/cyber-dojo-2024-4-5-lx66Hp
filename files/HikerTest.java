@@ -13,7 +13,7 @@ public class HikerTest {
         List<String> actual = Hiker.answer().split("\n");
         for (int i =0 ; i<actual.size(); i++)
         {
-            int currentNumber=i+1
+            int currentNumber=i+1;
             if(currentNumber%3==0 && currentNumber%5==0)
                 assertEquals("FizzBuzz", actual[i]);
             else if(currentNumber%3==0)
