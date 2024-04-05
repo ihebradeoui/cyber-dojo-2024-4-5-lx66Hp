@@ -21,7 +21,7 @@ public class HikerTest {
                 assertEquals("FizzBuzz", actual.get(i));
             else if(currentNumber%3==0)
                 assertEquals("Fizz", actual.get(i));
-            else if(currentNumber%3==0)
+            else if(currentNumber%5==0)
                 assertEquals("Buzz", actual.get(i));
             else 
                 assertEquals(currentNumber+"", actual.get(i));
