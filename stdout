@@ -2,41 +2,13 @@
 +-- JUnit Jupiter [OK]
 | '-- FizzBuzzerTest [OK]
 |   +-- checkMultiplesOf3And5AllEqualToFizzBuzz [OK]
-|   +-- checkMultiplesOf5AllEqualToBuzz [X] expected: <Buzz> but was: <FizzBuzz>
+|   +-- checkMultiplesOf5AllEqualToBuzz [OK]
 |   +-- checkAnswerElementsAre100 [OK]
-|   '-- checkMultiplesOf3AllEqualToFizz [X] expected: <Fizz> but was: <FizzBuzz>
+|   '-- checkMultiplesOf3AllEqualToFizz [OK]
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
-Failures (2):
-  JUnit Jupiter:FizzBuzzerTest:checkMultiplesOf5AllEqualToBuzz
-    MethodSource [className = 'FizzBuzzerTest', methodName = 'checkMultiplesOf5AllEqualToBuzz', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Buzz> but was: <FizzBuzz>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       FizzBuzzerTest.checkMultiplesOf5AllEqualToBuzz(FizzBuzzerTest.java:23)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-  JUnit Jupiter:FizzBuzzerTest:checkMultiplesOf3AllEqualToFizz
-    MethodSource [className = 'FizzBuzzerTest', methodName = 'checkMultiplesOf3AllEqualToFizz', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <Fizz> but was: <FizzBuzz>
-       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       FizzBuzzerTest.checkMultiplesOf3AllEqualToFizz(FizzBuzzerTest.java:33)
-       java.base/java.lang.reflect.Method.invoke(Method.java:580)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-Test run finished after 156 ms
+Test run finished after 158 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
@@ -47,6 +19,6 @@ Test run finished after 156 ms
 [         0 tests skipped         ]
 [         4 tests started         ]
 [         0 tests aborted         ]
-[         2 tests successful      ]
-[         2 tests failed          ]
+[         4 tests successful      ]
+[         0 tests failed          ]
 
