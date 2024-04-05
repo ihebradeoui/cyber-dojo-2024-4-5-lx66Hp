@@ -1,12 +1,4 @@
-HikerTest.java:13: error: cannot find symbol
-        List<String> actual = Hiker.answer().split("\n");
-        ^
-  symbol:   class List
-  location: class HikerTest
-HikerTest.java:13: error: int cannot be dereferenced
-        List<String> actual = Hiker.answer().split("\n");
-                                            ^
-HikerTest.java:24: error: int cannot be dereferenced
-                assertEquals(currentNumber.toString(), actual[i]);
-                                          ^
-3 errors
+Hiker.java:5: error: illegal start of expression
+        return [1];
+               ^
+1 error
