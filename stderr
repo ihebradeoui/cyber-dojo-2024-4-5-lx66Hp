@@ -1,6 +1,4 @@
-FizzBuzzerTest.java:12: error: cannot find symbol
-    @Before
-     ^
-  symbol:   class Before
-  location: class FizzBuzzerTest
-1 error
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
