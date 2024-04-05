@@ -1,16 +1,9 @@
-HikerTest.java:16: error: no suitable method found for assertFalse(no arguments)
-            assertFalse();
+HikerTest.java:16: error: no suitable method found for assertFalse(String)
+            assertFalse("not enough items");
             ^
-    method Assertions.assertFalse(BooleanSupplier,Supplier<String>) is not applicable
-      (actual and formal argument lists differ in length)
-    method Assertions.assertFalse(BooleanSupplier,String) is not applicable
-      (actual and formal argument lists differ in length)
     method Assertions.assertFalse(BooleanSupplier) is not applicable
-      (actual and formal argument lists differ in length)
-    method Assertions.assertFalse(boolean,Supplier<String>) is not applicable
-      (actual and formal argument lists differ in length)
-    method Assertions.assertFalse(boolean,String) is not applicable
-      (actual and formal argument lists differ in length)
+      (argument mismatch; String cannot be converted to BooleanSupplier)
     method Assertions.assertFalse(boolean) is not applicable
-      (actual and formal argument lists differ in length)
+      (argument mismatch; String cannot be converted to boolean)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
 1 error

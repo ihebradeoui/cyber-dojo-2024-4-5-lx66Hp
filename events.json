@@ -251,5 +251,21 @@
       20,
       661433
     ]
+  },
+  {
+    "duration": 3.127815,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 16,
+    "time": [
+      2024,
+      4,
+      5,
+      10,
+      35,
+      12,
+      459744
+    ]
   }
 ]
