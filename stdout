@@ -1,26 +1,26 @@
 .
 +-- JUnit Jupiter [OK]
 | '-- HikerTest [OK]
-|   '-- life the universe and everything [X] expected: <true> but was: <false>
+|   '-- life the universe and everything [X] expected: <5> but was: <Buzz>
 +-- JUnit Vintage [OK]
 '-- JUnit Platform Suite [OK]
 
 Failures (1):
   JUnit Jupiter:HikerTest:life the universe and everything
     MethodSource [className = 'HikerTest', methodName = 'life_the_universe_and_everything', methodParameterTypes = '']
-    => org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+    => org.opentest4j.AssertionFailedError: expected: <5> but was: <Buzz>
        org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
        org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-       org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-       org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-       org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
-       org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
-       HikerTest.life_the_universe_and_everything(HikerTest.java:16)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       HikerTest.life_the_universe_and_everything(HikerTest.java:27)
        java.base/java.lang.reflect.Method.invoke(Method.java:580)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 137 ms
+Test run finished after 195 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]
