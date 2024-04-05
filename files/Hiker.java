@@ -1,5 +1,5 @@
 
-import java.collections.List
+import java.collections.List;
 public class Hiker {
 
     public static List<String> answer() {
