@@ -1,4 +1,4 @@
-Hiker.java:5: error: illegal start of expression
-        return [1];
-               ^
+Hiker.java:2: error: ';' expected
+import java.collections.List
+                            ^
 1 error
