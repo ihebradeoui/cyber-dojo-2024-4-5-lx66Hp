@@ -12,7 +12,7 @@ public class FizzBuzzerTest {
     @Before
     void checkAnswerElementsAre100()
     {
-        assertEquals(100,FizzBuzzer.answer().size())
+        assertEquals(100,FizzBuzzer.answer().size());
     }
     @Test
     void checkMultiplesOf5AllEqualToBuzz() {

@@ -1,4 +1,21 @@
-FizzBuzzerTest.java:15: error: ';' expected
-        assertEquals(100,FizzBuzzer.answer().size())
-                                                    ^
-1 error
+FizzBuzzerTest.java:12: error: cannot find symbol
+    @Before
+     ^
+  symbol:   class Before
+  location: class FizzBuzzerTest
+FizzBuzzerTest.java:22: error: cannot find symbol
+                    asserEquals("Buzz",acual.get(i));
+                                       ^
+  symbol:   variable acual
+  location: class FizzBuzzerTest
+FizzBuzzerTest.java:31: error: cannot find symbol
+                    asserEquals("Fizz",acual.get(i));
+                                       ^
+  symbol:   variable acual
+  location: class FizzBuzzerTest
+FizzBuzzerTest.java:40: error: cannot find symbol
+                    asserEquals("FizzBuzz",acual.get(i));
+                                           ^
+  symbol:   variable acual
+  location: class FizzBuzzerTest
+4 errors

@@ -347,5 +347,21 @@
       35,
       69215
     ]
+  },
+  {
+    "duration": 3.162535,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 22,
+    "time": [
+      2024,
+      4,
+      5,
+      11,
+      6,
+      48,
+      603954
+    ]
   }
 ]
