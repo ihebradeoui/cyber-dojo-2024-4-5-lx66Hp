@@ -3,9 +3,4 @@ Hiker.java:7: error: cannot find symbol
                                 ^
   symbol:   class Arraylist
   location: class Hiker
-HikerTest.java:14: error: cannot find symbol
-        List<String> actual = Hiker.answer().split("\n");
-                                            ^
-  symbol:   method split(String)
-  location: interface List<String>
-2 errors
+1 error

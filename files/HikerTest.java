@@ -11,7 +11,7 @@ public class HikerTest {
 
     @Test
     void life_the_universe_and_everything() {
-        List<String> actual = Hiker.answer().split("\n");
+        List<String> actual = Hiker.answer();
         for (int i =0 ; i<actual.size(); i++)
         {
             int currentNumber=i+1;
