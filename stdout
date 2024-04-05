@@ -18,7 +18,7 @@ Failures (2):
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
        org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       FizzBuzzerTest.checkMultiplesOf5AllEqualToBuzz(FizzBuzzerTest.java:22)
+       FizzBuzzerTest.checkMultiplesOf5AllEqualToBuzz(FizzBuzzerTest.java:23)
        java.base/java.lang.reflect.Method.invoke(Method.java:580)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
@@ -31,12 +31,12 @@ Failures (2):
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
        org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
        org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-       FizzBuzzerTest.checkMultiplesOf3AllEqualToFizz(FizzBuzzerTest.java:31)
+       FizzBuzzerTest.checkMultiplesOf3AllEqualToFizz(FizzBuzzerTest.java:33)
        java.base/java.lang.reflect.Method.invoke(Method.java:580)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
        java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-Test run finished after 179 ms
+Test run finished after 156 ms
 [         4 containers found      ]
 [         0 containers skipped    ]
 [         4 containers started    ]

@@ -19,6 +19,7 @@ public class FizzBuzzerTest {
         List<String> actual = FizzBuzzer.answer();
                 for (int i=4; i<actual.size();i+=5)
                 {
+                    if(i%3!=0) //check if it's not a multiple of 3 . because in that case we want a 'FizzBuzz'
                     assertEquals("Buzz",actual.get(i));
                 }
      }
@@ -28,6 +29,7 @@ public class FizzBuzzerTest {
         List<String> actual = FizzBuzzer.answer();
                 for (int i=2; i<actual.size();i+=3)
                 {
+                    if(i%5!=0) //check if it's not a multiple of 5 . because in that case we want a 'FizzBuzz'
                     assertEquals("Fizz",actual.get(i));
                 }
      }
