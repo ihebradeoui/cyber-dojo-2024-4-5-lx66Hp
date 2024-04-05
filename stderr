@@ -1,6 +1,4 @@
-Hiker.java:7: error: cannot find symbol
-        List<String> list = new Arraylist<String>();
-                                ^
-  symbol:   class Arraylist
-  location: class Hiker
-1 error
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
