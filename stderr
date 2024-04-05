@@ -1,10 +1,10 @@
-Hiker.java:6: error: illegal start of expression
-        return {1};
-               ^
-Hiker.java:6: error: not a statement
-        return {1};
-                ^
-Hiker.java:6: error: ';' expected
-        return {1};
-                 ^
+Hiker.java:7: error: illegal start of expression
+        return new Arraylist({1});
+                             ^
+Hiker.java:7: error: illegal start of type
+        return new Arraylist({1});
+                              ^
+Hiker.java:7: error: ';' expected
+        return new Arraylist({1});
+                                ^
 3 errors
