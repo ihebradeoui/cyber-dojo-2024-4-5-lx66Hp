@@ -9,7 +9,7 @@ import java.util.List;
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 public class FizzBuzzerTest {
 
-    @@Before
+    @Before
     void checkAnswerElementsAre100()
     {
         assertEquals(100,FizzBuzzer.answer().size())

@@ -1,7 +1,4 @@
-FizzBuzzerTest.java:12: error: <identifier> expected
-    @@Before
-     ^
 FizzBuzzerTest.java:15: error: ';' expected
         assertEquals(100,FizzBuzzer.answer().size())
                                                     ^
-2 errors
+1 error
