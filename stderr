@@ -1,9 +1,4 @@
-HikerTest.java:16: error: no suitable method found for assertFalse(String)
-            assertFalse("not enough items");
-            ^
-    method Assertions.assertFalse(BooleanSupplier) is not applicable
-      (argument mismatch; String cannot be converted to BooleanSupplier)
-    method Assertions.assertFalse(boolean) is not applicable
-      (argument mismatch; String cannot be converted to boolean)
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error
+
+WARNING: Delegated to the 'execute' command.
+         This behaviour has been deprecated and will be removed in a future release.
+         Please use the 'execute' command directly.
