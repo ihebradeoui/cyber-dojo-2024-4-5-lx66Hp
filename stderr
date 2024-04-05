@@ -4,18 +4,18 @@ FizzBuzzerTest.java:12: error: cannot find symbol
   symbol:   class Before
   location: class FizzBuzzerTest
 FizzBuzzerTest.java:22: error: cannot find symbol
-                    asserEquals("Buzz",acual.get(i));
-                                       ^
-  symbol:   variable acual
+                    asserEquals("Buzz",actual.get(i));
+                    ^
+  symbol:   method asserEquals(String,String)
   location: class FizzBuzzerTest
 FizzBuzzerTest.java:31: error: cannot find symbol
-                    asserEquals("Fizz",acual.get(i));
-                                       ^
-  symbol:   variable acual
+                    asserEquals("Fizz",actual.get(i));
+                    ^
+  symbol:   method asserEquals(String,String)
   location: class FizzBuzzerTest
 FizzBuzzerTest.java:40: error: cannot find symbol
-                    asserEquals("FizzBuzz",acual.get(i));
-                                           ^
-  symbol:   variable acual
+                    asserEquals("FizzBuzz",actual.get(i));
+                    ^
+  symbol:   method asserEquals(String,String)
   location: class FizzBuzzerTest
 4 errors

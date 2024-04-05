@@ -19,7 +19,7 @@ public class FizzBuzzerTest {
         List<String> actual = FizzBuzzer.answer();
                 for (int i=4; i<actual.size();i+=5)
                 {
-                    asserEquals("Buzz",acual.get(i));
+                    asserEquals("Buzz",actual.get(i));
                 }
      }
     
@@ -28,7 +28,7 @@ public class FizzBuzzerTest {
         List<String> actual = FizzBuzzer.answer();
                 for (int i=2; i<actual.size();i+=3)
                 {
-                    asserEquals("Fizz",acual.get(i));
+                    asserEquals("Fizz",actual.get(i));
                 }
      }
     
@@ -37,7 +37,7 @@ public class FizzBuzzerTest {
         List<String> actual = FizzBuzzer.answer();
                 for (int i=14; i<actual.size();i+=15)
                 {
-                    asserEquals("FizzBuzz",acual.get(i));
+                    asserEquals("FizzBuzz",actual.get(i));
                 }
      }
 }
