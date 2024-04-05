@@ -4,7 +4,7 @@
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-import java.collections.List;
+import java.util.List;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 public class HikerTest {
@@ -22,7 +22,7 @@ public class HikerTest {
             else if(currentNumber%3==0)
                 assertEquals("Buzz", actual[i]);
             else 
-                assertEquals(currentNumber.toString(), actual[i]);
+                assertEquals(currentNumber+"", actual[i]);
         }
         
      }

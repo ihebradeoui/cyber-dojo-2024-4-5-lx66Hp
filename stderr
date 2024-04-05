@@ -1,25 +1,10 @@
-Hiker.java:2: error: package java.collections does not exist
-import java.collections.List;
-                       ^
-Hiker.java:5: error: cannot find symbol
-    public static List<String> answer() {
-                  ^
-  symbol:   class List
-  location: class Hiker
-HikerTest.java:7: error: package java.collections does not exist
-import java.collections.List;
-                       ^
-Hiker.java:6: error: cannot find symbol
-        return List.of(1);
+Hiker.java:6: error: illegal start of expression
+        return {1};
                ^
-  symbol:   variable List
-  location: class Hiker
-HikerTest.java:14: error: cannot find symbol
-        List<String> actual = Hiker.answer().split("\n");
-        ^
-  symbol:   class List
-  location: class HikerTest
-HikerTest.java:25: error: int cannot be dereferenced
-                assertEquals(currentNumber.toString(), actual[i]);
-                                          ^
-6 errors
+Hiker.java:6: error: not a statement
+        return {1};
+                ^
+Hiker.java:6: error: ';' expected
+        return {1};
+                 ^
+3 errors

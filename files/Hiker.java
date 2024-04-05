@@ -1,8 +1,8 @@
 
-import java.collections.List;
+import java.util.List;
 public class Hiker {
 
     public static List<String> answer() {
-        return List.of(1);
+        return {1};
     }
 }
